@@ -3,7 +3,7 @@ using namespace std;
 
 class orang {
 public:
-	int umur;
+	int umur; 
 
 	orang(intpUmur) :
 		umur(pUmur)
