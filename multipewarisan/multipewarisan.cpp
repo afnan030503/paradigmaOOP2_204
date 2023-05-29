@@ -36,7 +36,7 @@ public:
 		orang(pNama),
 		manusia(pJeniskelamin),
 		sekolah(pSekolah) {
-		cout << "pelajar dibuat\n" << endl;
+		cout << "pelajar dibuat\n" << endl; 
 	}
 	~pelajar() {
 		cout << "pelajar dihapus" << endl;
