@@ -22,3 +22,18 @@ public:
 		cout << "pesan dari lia" << endl;
 	}
 };
+
+int main() {
+	seseorang* obyek;
+	joko a;
+	joko b;
+
+	obyek = &a;
+	obyek->pesan();
+	obyek = &b;
+	obyek->pesan();
+	//seseorang::pesan();
+	//seseorang::pesan();
+
+	return 0;
+}
