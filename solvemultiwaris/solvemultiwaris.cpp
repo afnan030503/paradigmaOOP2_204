@@ -38,5 +38,8 @@ public:
 	budi(int pUmur) :
 		pekerja(pUmur),
 		pelajar(pUmur),
-		orang(pUmur) 
+		orang(pUmur)// jika use virtual
+	{
+		cout << "budi dibuat\n" << endl;
+	}
 };
